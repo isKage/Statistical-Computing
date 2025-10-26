@@ -1,0 +1,15 @@
+*/.DS_Store
+.DS_Store
+*/__pycache__/
+.idea/
+*.iws
+*.iml
+*.ipr
+.idea_modules/
+__pycache__/
+.vscode/
+*.pyc
+.cache/
+.cache/
+
+hw1/data/FashionMNIST/
