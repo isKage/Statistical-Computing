@@ -1,0 +1,49 @@
+====================================================================================================
+Simulated Annealing Method
+Sample data from : data/gene.csv
+Max Iteration: 1000
+----------------------------------------------------------------------------------------------------
+Initial Solution: [10  9  0  8  5  2  1 11  4  7  3  6]	Initial Temperature: 10
+Initial Stage length: 100
+Updating Process:
+
+Iter 100	Temper: 9.0000	Current Func = -424.4892	Opt Func = -394.6055
+Iter 200	Temper: 9.0000	Current Func = -348.0820	Opt Func = -334.9077
+Iter 300	Temper: 8.1000	Current Func = -298.3949	Opt Func = -298.3949
+Iter 400	Temper: 8.1000	Current Func = -306.3045	Opt Func = -298.3949
+Iter 500	Temper: 7.2900	Current Func = -298.3949	Opt Func = -298.3949
+Iter 600	Temper: 7.2900	Current Func = -306.3045	Opt Func = -298.3949
+Iter 700	Temper: 6.5610	Current Func = -298.3949	Opt Func = -298.3949
+Iter 800	Temper: 6.5610	Current Func = -310.2755	Opt Func = -298.3949
+Iter 900	Temper: 5.9049	Current Func = -298.3949	Opt Func = -298.3949
+Iter 1000	Temper: 5.9049	Current Func = -298.3949	Opt Func = -298.3949
+----------------------------------------------------------------------------------------------------
+Opt Solution: [9, 4, 7, 8, 10, 0, 6, 2, 5, 11, 3, 1]
+Opt Objective Func: -298.39490860116126
+Initial Temperature: 10
+Initial Stage length: 100
+====================================================================================================
+Figure saved in figure/simulated_annealing_combin.png!
+
+
+
+
+==============================================================================================================
+Parallel Solver Initialized: using 8 workers!
+--------------------------------------------------------------------------------------------------------------
+Launching 6 tasks in parallel...
+
+[Task 0 | SimulatedAnnealing] Done	temperature_init: 1	Func = -321.4922
+[Task 4 | SimulatedAnnealing] Done	temperature_init: 50	Func = -350.4143
+[Task 3 | SimulatedAnnealing] Done	temperature_init: 15	Func = -321.4922
+[Task 1 | SimulatedAnnealing] Done	temperature_init: 5	Func = -321.2562
+[Task 5 | SimulatedAnnealing] Done	temperature_init: 100	Func = -344.8299
+[Task 2 | SimulatedAnnealing] Done	temperature_init: 10	Func = -298.3949
+
+All tasks completed!
+--------------------------------------------------------------------------------------------------------------
+Opt Solution: [ 9  4  7  8 10  0  6  2  5 11  3  1]
+Opt Func: -298.39490860116126
+temperature_init: 10
+Figure saved: figure/multi_simulated_annealing_combin.png!
+==============================================================================================================

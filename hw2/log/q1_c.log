@@ -1,0 +1,55 @@
+====================================================================================================
+Random Combinatorial Method
+Sample data from : data/gene.csv
+Max Iteration: 200
+----------------------------------------------------------------------------------------------------
+Initial Solution: [10  9  0  8  5  2  1 11  4  7  3  6]
+Updating Process:
+
+Iter: 20	Solution: [8, 10, 0, 6, 5, 2, 9, 4, 7, 11, 3, 1]	Objective Func: -373.6973
+Iter: 40	Solution: [8, 10, 0, 6, 5, 2, 9, 4, 7, 11, 3, 1]	Objective Func: -373.6973
+Iter: 60	Solution: [8, 10, 0, 6, 5, 2, 9, 4, 7, 11, 3, 1]	Objective Func: -373.6973
+Iter: 80	Solution: [8, 10, 0, 6, 5, 2, 9, 4, 7, 11, 3, 1]	Objective Func: -373.6973
+Iter: 100	Solution: [8, 10, 0, 6, 5, 2, 9, 4, 7, 11, 3, 1]	Objective Func: -373.6973
+Iter: 120	Solution: [8, 10, 0, 6, 5, 2, 9, 4, 7, 11, 3, 1]	Objective Func: -373.6973
+Iter: 140	Solution: [8, 10, 0, 6, 5, 2, 9, 4, 7, 11, 3, 1]	Objective Func: -373.6973
+Iter: 160	Solution: [8, 10, 0, 6, 5, 2, 9, 4, 7, 11, 3, 1]	Objective Func: -373.6973
+Iter: 180	Solution: [8, 10, 0, 6, 5, 2, 9, 4, 7, 11, 3, 1]	Objective Func: -373.6973
+Iter: 200	Solution: [8, 10, 0, 6, 5, 2, 9, 4, 7, 11, 3, 1]	Objective Func: -373.6973
+----------------------------------------------------------------------------------------------------
+Opt Solution: [8, 10, 0, 6, 5, 2, 9, 4, 7, 11, 3, 1]
+Opt Objective Func: -373.6973278854574
+====================================================================================================
+Figure saved in figure/random_combin.png!
+
+
+
+
+==============================================================================================================
+Parallel Solver Initialized: using 8 workers!
+--------------------------------------------------------------------------------------------------------------
+Launching 15 tasks in parallel...
+
+[Task 0 | RandomCombinatorial] Done	theta_init: [ 7  1  4  3  8  6  9 10  0  2  5 11]	Func = -342.4286
+[Task 5 | RandomCombinatorial] Done	theta_init: [ 4  2  8 11  1  9  7  6  3  5 10  0]	Func = -384.3977
+[Task 7 | RandomCombinatorial] Done	theta_init: [ 0  6  5  2  4  8  9  7  1  3 10 11]	Func = -331.7453
+[Task 4 | RandomCombinatorial] Done	theta_init: [ 0  6  4  7  5  1  9  2  8  3 10 11]	Func = -315.5517
+[Task 6 | RandomCombinatorial] Done	theta_init: [ 1  8  2  6  5  3 10  4 11  0  9  7]	Func = -315.5517
+[Task 2 | RandomCombinatorial] Done	theta_init: [ 9  6  8  4  5  2  3 10  7  0  1 11]	Func = -326.6185
+[Task 1 | RandomCombinatorial] Done	theta_init: [ 4  1  8  0  5  9  6  3 10  2 11  7]	Func = -354.8655
+[Task 3 | RandomCombinatorial] Done	theta_init: [ 4 10  6  2  8  9  5  1  7  0  3 11]	Func = -352.8832
+[Task 8 | RandomCombinatorial] Done	theta_init: [ 1  8  2  3  4 10  5  9  7  0 11  6]	Func = -357.0614
+[Task 9 | RandomCombinatorial] Done	theta_init: [10  9  4  1  3  6 11  2  8  5  7  0]	Func = -343.9554
+[Task 11 | RandomCombinatorial] Done	theta_init: [ 5  8  2  6  4  7  1 10 11  3  9  0]	Func = -338.8451
+[Task 10 | RandomCombinatorial] Done	theta_init: [ 7  3  5  6  4  0  1  8  2  9 10 11]	Func = -353.8531
+[Task 12 | RandomCombinatorial] Done	theta_init: [ 6  8  9  3 11  2 10  4  1  7  0  5]	Func = -327.3117
+[Task 14 | RandomCombinatorial] Done	theta_init: [ 6  1  7  2  5  3 10  0 11  4  9  8]	Func = -336.6488
+[Task 13 | RandomCombinatorial] Done	theta_init: [ 6  7  4  3  2 10  5  1  0 11  9  8]	Func = -343.9554
+
+All tasks completed!
+--------------------------------------------------------------------------------------------------------------
+Opt Solution: [ 1  3 11  5  2  6  0  9  4  7  8 10]
+Opt Func: -315.5517452921158
+theta_init: [ 1  8  2  6  5  3 10  4 11  0  9  7]
+Figure saved: figure/multi_random_combin.png!
+==============================================================================================================

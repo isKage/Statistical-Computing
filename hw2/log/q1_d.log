@@ -1,0 +1,48 @@
+====================================================================================================
+Tabu Method
+Sample data from : data/gene.csv
+Max Iteration: 200
+----------------------------------------------------------------------------------------------------
+Initial Solution: [10  9  0  8  5  2  1 11  4  7  3  6]
+Tabu Tenure: 5
+Updating Process:
+
+Iter 20	Current Func = -378.3699	Opt Func = -344.5431
+Iter 40	Current Func = -368.2177	Opt Func = -343.9554
+Iter 60	Current Func = -369.5620	Opt Func = -343.9554
+Iter 80	Current Func = -383.8000	Opt Func = -343.9554
+Iter 100	Current Func = -344.8322	Opt Func = -334.3167
+Iter 120	Current Func = -352.0130	Opt Func = -330.3640
+Iter 140	Current Func = -330.3499	Opt Func = -298.3949
+Iter 160	Current Func = -341.0376	Opt Func = -298.3949
+Iter 180	Current Func = -334.5912	Opt Func = -298.3949
+Iter 200	Current Func = -346.9407	Opt Func = -298.3949
+----------------------------------------------------------------------------------------------------
+Opt Solution: [1, 3, 11, 5, 2, 6, 0, 10, 8, 7, 4, 9]
+Opt Objective Func: -298.39490860116126
+Tabu Tenure: 5
+====================================================================================================
+Figure saved in figure/tabu_combin.png!
+
+
+
+
+==============================================================================================================
+Parallel Solver Initialized: using 8 workers!
+--------------------------------------------------------------------------------------------------------------
+Launching 6 tasks in parallel...
+
+[Task 1 | TabuSolver] Done	tabu_tenure: 5	Func = -298.3949
+[Task 5 | TabuSolver] Done	tabu_tenure: 13	Func = -321.2562
+[Task 2 | TabuSolver] Done	tabu_tenure: 7	Func = -334.3687
+[Task 3 | TabuSolver] Done	tabu_tenure: 9	Func = -298.3949
+[Task 4 | TabuSolver] Done	tabu_tenure: 11	Func = -298.3949
+[Task 0 | TabuSolver] Done	tabu_tenure: 3	Func = -341.0648
+
+All tasks completed!
+--------------------------------------------------------------------------------------------------------------
+Opt Solution: [ 9  4  7  8 10  0  6  2  5 11  3  1]
+Opt Func: -298.39490860116126
+tabu_tenure: 5
+Figure saved: figure/multi_tabu_combin.png!
+==============================================================================================================

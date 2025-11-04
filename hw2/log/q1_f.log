@@ -1,0 +1,22 @@
+====================================================================================================
+Genetic Algorithm Method
+Sample data from : data/gene.csv
+Max Iteration: 500
+----------------------------------------------------------------------------------------------------
+Optim Process ...
+
+Iter 0	Current Func = -466.0046	Opt Func = -415.9837
+Iter 50	Current Func = -456.3865	Opt Func = -415.9837
+Iter 100	Current Func = -372.1917	Opt Func = -350.0679
+Iter 150	Current Func = -372.1917	Opt Func = -350.0679
+Iter 200	Current Func = -367.5050	Opt Func = -350.0679
+Iter 250	Current Func = -367.5050	Opt Func = -350.0679
+Iter 300	Current Func = -367.5050	Opt Func = -350.0679
+Iter 350	Current Func = -367.5050	Opt Func = -350.0679
+Iter 400	Current Func = -367.5050	Opt Func = -350.0679
+Iter 450	Current Func = -362.7941	Opt Func = -298.3949
+----------------------------------------------------------------------------------------------------
+Opt Solution: [9, 4, 7, 8, 10, 0, 6, 2, 5, 11, 3, 1]
+Opt Objective Func: -298.39490860116126
+====================================================================================================
+Figure saved in figure/genetic_algorithm_combin.png!
