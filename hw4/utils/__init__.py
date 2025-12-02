@@ -1,0 +1,2 @@
+from .numerical_integration import NewtonCotesQuadrature, GaussianQuadrature
+from .sequential_importance_sampling import SIS, SISParticleFilter

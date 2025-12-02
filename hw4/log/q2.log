@@ -1,0 +1,16 @@
+==================================================
+SIR: Sampling Importance Resampling
+Sampling Num: 100
+
+# Sigma Prediction: 0.706399
+==================================================
+
+==================================================
+RS: Rejection Sampling
+Sampling Num: 100
+Envelope use x0 = 1.50, alpha = 0.35
+7 samples: q(X)/e(X) > 1
+Accept rate = 82.00%
+
+# Sigma Prediction: 0.711958
+==================================================
